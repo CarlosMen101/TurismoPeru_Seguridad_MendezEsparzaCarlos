@@ -1,0 +1,41 @@
+# ==========================================
+# Archivos de Entorno y Variables Sensibles
+# ==========================================
+.env
+.env.local
+*.env
+
+# ==========================================
+# Entornos Virtuales y Cache de Python
+# ==========================================
+venv/
+env/
+ENV/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+
+# ==========================================
+# Base de Datos, Migraciones y Backups Grandes
+# ==========================================
+*.bacpac
+*.dacpac
+*.bak
+*.ldf
+*.mdf
+
+# ==========================================
+# Archivos de Migración/CSV Generados (Opcional)
+# ==========================================
+*.csv
+*.log
+
+# ==========================================
+# Archivos del Sistema Operativo y Editores
+# ==========================================
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
